@@ -45,7 +45,7 @@ nav ul li a:hover {
 #btn1 {
     color : white; 
     background-color : #012340; 
-    padding : 7px 18px 10px 18px;
+    padding : 10px 18px 10px 18px;
     margin-top : -15px; 
     border-radius : 50px 50px; 
     border : none;
@@ -54,4 +54,116 @@ nav ul li a:hover {
 #btn1:hover {
     cursor : pointer;
 }
+
+#sec {
+    display : flex;
+    justify-content : space-between;
+    margin-top : 40px;
+}
+
+#secs0 {
+    display : flex;
+    justify-content: space-around;
+}
+
+#img0 {
+    width : 500px;
+    height : 650px;
+    border-radius : 40px 40px;
+    border : none; 
+}
+
+#sectxt {
+    margin : auto 0px;
+}
+
+h2 {
+    color : #012340; 
+    text-align : center; 
+    margin-top : 100px; 
+    margin-bottom : 60px;
+    font-size : 30px;
+}
+
+#secs1 {
+    display : flex;
+    justify-content: space-between;
+}
+
+.img-sec {
+    width : 400px;
+    height : 260px;
+}
+
+.heading-3 {
+    color : #012340;
+}
+
+.p-sec {
+    color : #516373;
+    font-size : 16px;
+}
+
+#secs2 {
+    display : flex;
+    justify-content: space-between;
+}
+
+.img1-sec {
+    border-radius : 50%;
+    width : 45px;
+    height : 45px;
+}
+
+#secs3 {
+    display : flex;
+    justify-content : space-around;
+    
+}
+
+.remark1 {
+    background : rgb(245, 250, 247);
+    text-align : left;
+    padding : 30px;
+}
+
+.remimg {
+    border-radius : 50%;
+    width : 150px;
+    height : 200px;
+    display : block;
+    margin : 0px auto 30px auto;
+}
+
+.remp, .remp-name, .remp-cat {
+    color : #0e181f;
+}
+
+.remp-name, .remp-cat {
+    text-align : center;
+    font-style: italic;
+}
+
+.remp-name {
+    font-size : 16px;
+}
+
+.remp-cat {
+    margin-top : -15px;
+    font-size : 15px;
+}
+
+#foot {
+    margin-top : 100px;
+    background-color : #516373;
+    display : flex;
+    justify-content : center;
+}
+
+#footxt {
+    align-items : center;
+    padding : 17px;
+    color : aliceblue;
+}
+
 
