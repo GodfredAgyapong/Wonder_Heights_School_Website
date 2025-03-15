@@ -1,0 +1,83 @@
+body {
+    box-sizing: border-box;
+    margin : 0 80px;
+}
+
+body {
+    font-family : 'Poppins', sans-serif;
+}
+
+#bgimg {
+    background-image : url('../Images/Pages/galleryimage.png');
+    background-repeat: no-repeat;
+    background-size : 100%;
+}
+
+nav {
+    display : flex;
+    padding-top : 10px;
+    padding-left : 5px;
+}
+
+nav ul {
+    display : flex;
+    margin : 0px 20px 0px auto;
+    list-style : none;
+    gap : 20px;
+}
+
+nav ul li a{
+    text-decoration : none;
+    color : #516373;
+}
+
+nav ul li a:hover {
+    color : #012340;
+}
+
+#herotxt1 {
+    text-align : center;
+    margin-top : 560px;
+    padding-bottom : 1%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, white 100%);
+}
+
+h2 {
+    color : #012340; 
+    font-size : 40px;
+}
+
+h3 {
+    font-size : 33px;
+    text-align : center;
+    margin-top : 80px; 
+    margin-bottom : 50px;
+    color : #012340;
+}
+
+.hero-sec {
+    display : flex;
+    justify-content : space-between;
+}
+
+.sec-img {
+    border : none;
+    border-radius: 40px;
+    width : 430px;
+    height : 370px;
+    box-shadow : 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+#foot {
+    margin-top : 150px;
+    background-color : #516373;
+    display : flex;
+    justify-content : center;
+}
+
+#footxt {
+    align-items : center;
+    padding : 17px;
+    color : aliceblue;
+}
