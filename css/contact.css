@@ -1,0 +1,109 @@
+body {
+    box-sizing: border-box;
+    margin : 0 80px;
+}
+
+body {
+    font-family : 'Poppins', sans-serif;
+}
+
+#bgimg {
+    background-image : url('../Images/Pages/contactusimage.png');
+    background-repeat: no-repeat;
+    background-size : 100%;
+}
+
+nav {
+    display : flex;
+    padding-top : 10px;
+    padding-left : 5px;
+}
+
+/* nav ul {
+    display : flex;
+    margin : 0px 20px 0px auto;
+    list-style : none;
+    gap : 20px;
+}
+
+nav ul li a{
+    text-decoration : none;
+    color : #516373;
+}
+
+nav ul li a:hover {
+    color : #012340;
+}*/
+
+#herotxt1 {
+    text-align : center;
+    margin-top : 560px;
+    padding-bottom : 1%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, white 100%);
+}
+
+h2 {
+    color : #012340; 
+    font-size : 40px;
+}
+
+h3 {
+    font-size : 25px;
+    text-align : center;
+    margin-top : 80px; 
+    margin-bottom : 30px;
+    color : #012340;
+}
+
+#info {
+    display : flex;
+    justify-content: space-between;
+    margin-top : 150px;
+}
+
+.inf {
+    border : solid 1px #012340;
+    width : 400px;
+    padding-left : 15px;
+}
+
+#fm {
+    margin-top : 100px;
+    border : solid 1px #012340;
+    padding : 10px 15px 70px 7px;
+}
+
+input { 
+    width : 100%;
+    height : 38px;
+}
+
+#nm {
+    margin-bottom : 35px;
+}
+
+#em {
+    margin-bottom : 35px;
+}
+
+#loc {
+    margin-bottom : 35px;
+}
+
+#ic {
+    text-align : center;
+    margin-top : -20px;
+}
+
+#foot {
+    margin-top : 80px;
+    background-color : #516373;
+    display : flex;
+    justify-content : center;
+}
+
+#footxt {
+    align-items : center;
+    padding : 17px;
+    color : aliceblue;
+}
